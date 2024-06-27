@@ -10,6 +10,8 @@ public class EmployeeController {
     @GetMapping("/Employee")
   public  String hello()
     {
+
+        System.out.println("Hi......");
         return "Hello";
     }
 
