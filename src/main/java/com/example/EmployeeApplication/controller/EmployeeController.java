@@ -10,8 +10,6 @@ public class EmployeeController {
     @GetMapping("/Employee")
   public  String hello()
     {
-
-        System.out.println("Hi......");
         System.out.println("FeatureBrach");
         return "Hello";
     }
